@@ -177,7 +177,7 @@ namespace MonoProgram.Package.Debuggers
         }
 
         // Sets the next statement to the given stack frame and code context.
-        // The sample debug engine doesn't support set next statment
+        // The sample debug engine doesn't support set next statement
         int IDebugThread2.SetNextStatement(IDebugStackFrame2 stackFrame, IDebugCodeContext2 codeContext)
         {
             IDebugDocumentContext2 context;
